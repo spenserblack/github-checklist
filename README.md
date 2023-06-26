@@ -10,6 +10,11 @@ Set up the default file that `git blame` uses to know which commits to ignore.
 git config --global blame.ignoreRevsFile .git-blame-ignore-revs
 ```
 
+***NOTE:*** If you find yourself working on more repositories that *don't* have this file than
+repositories that *do,* then you may want to configure this value locally for each repository
+instead of globally. Configuring this globally can result in an error when calling `git blame`
+in a repository that doesn't have this file.
+
 ### Why?
 
 GitHub now uses [a file called `.git-blame-ignore-revs` that lists commits to ignore][blame-ignore-docs].
