@@ -77,8 +77,17 @@ Interacting with GitHub via the command-line allows you to stay in the same cont
 switching between the terminal and the web browser. Several of the commands and extensions are also
 arguably faster in the terminal than switching to a browser.
 
+## GitHub's Web Flow GPG Key
+
+Import the key from [github.com/web-flow.gpg][github-web-flow-key].
+
+### Why?
+
+This allows you to verify commits that were signed by GitHub locally.
+
 [blame-ignore-docs]: https://docs.github.com/en/repositories/working-with-files/using-files/viewing-a-file#ignore-commits-in-the-blame-view
 [gh-cli]: https://github.com/cli/cli
 [gh-extension-topic]: https://github.com/topics/gh-extension
 [git-lzc]: https://github.com/spenserblack/git-lazy-commit
 [git-lfs]: https://github.com/git-lfs/git-lfs
+[github-web-flow-key]: https://github.com/web-flow.gpg
